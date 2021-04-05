@@ -52,7 +52,7 @@ var createNewTaskElement=function(taskString){
 
 
     //and appending.
-    listItem.className='todo-list__task-list';
+    listItem.className='todo-list__item';
     listItem.appendChild(checkBox);
     listItem.appendChild(label);
     listItem.appendChild(editInput);
